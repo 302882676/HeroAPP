@@ -9,7 +9,7 @@ import {HeroService} from '../hero.service';
 })
 export class DashboardComponent implements OnInit {
 	heroes: Hero[] = [];
-
+	public name = "wanghaitao";
 	constructor(private heroService: HeroService) {}
 
 	ngOnInit() {
